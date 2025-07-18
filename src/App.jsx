@@ -12,7 +12,7 @@ function App() {
       <img src={images} />
       <h1>Components-Practice</h1>
       <PersonCard name="Patrick Star" age={30} />
-      <Button text="Click ME" />
+      <Button onClick={handleClick} text="Click for console message" />
     </>
   );
 }
